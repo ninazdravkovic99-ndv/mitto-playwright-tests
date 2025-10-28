@@ -103,10 +103,10 @@ All tests follow the **AAA (Arrange-Act-Assert) pattern** and include dynamic ha
 
 ## 5. How to Run All Tests
 
-# Run all tests headless
+Run all tests headless:
 npx playwright test
 
-# Run a specific test file in headed mode
+Run a specific test file in headed mode
 npx playwright test tests/mitto-signin.spec.js --headed
 
 ## 6. Notes
